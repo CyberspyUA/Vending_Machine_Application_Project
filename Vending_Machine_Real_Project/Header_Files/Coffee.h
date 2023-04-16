@@ -42,7 +42,7 @@ public:
 		is_dopping_added = coffee_is_dopping_added;
 	}
 	//Show function
-	void order_show();
+	void order_show() override;
 	// Coffee procesing functions
 	void brewing();
 	void sugar_adding();

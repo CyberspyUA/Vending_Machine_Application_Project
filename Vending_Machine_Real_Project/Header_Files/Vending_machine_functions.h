@@ -9,6 +9,7 @@ bool func_tea_choice();
 bool func_cacao_choice();
 int func_cup_size_choice();
 std::string func_dopping_choice();
+std::string func_sweets_choice();
 //Show functions
 void func_coffee_show();
 void func_tea_show();
@@ -21,6 +22,7 @@ void func_location_show();
 //Confirmation functions
 bool func_are_you_sure();
 bool func_is_dopping_needed();
+bool func_are_sweets_needed();
 //Treats adding function
 int func_sugar_spoons_quantity();
 #endif 

@@ -65,7 +65,7 @@ public:
 		are_candies_added = cacao_are_candies_added;
 	}
 	//Show function
-	void order_show();
+	void order_show() override;
 	// Coffee procesing functions
 	void brewing();
 	void sugar_adding();
