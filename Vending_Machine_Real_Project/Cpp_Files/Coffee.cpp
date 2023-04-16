@@ -15,11 +15,11 @@ void Coffee::brewing()
 	std::string coffee_name{ get_drink_name() };
 	std::cout << "-----------------------------------------------------------" << std::endl;
 	std::cout << "Heating water and milk." << std::endl;
-	std::this_thread::sleep_for(std::chrono::milliseconds(40000));
+	std::this_thread::sleep_for(std::chrono::milliseconds(40000)); // Freezes application process for 40000 milliseconds (40 seconds) as an imiation of heating a water and milk 
 	std::cout << "Shrinking coffee beans." << std::endl;
-	std::this_thread::sleep_for(std::chrono::milliseconds(5000));
+	std::this_thread::sleep_for(std::chrono::milliseconds(5000));	// Freezes application process for 5000 milliseconds (5 seconds) as an imiation of heating a water and milk 
 	std::cout << "Putting a cup." << std::endl;
-	std::this_thread::sleep_for(std::chrono::milliseconds(15000));
+	std::this_thread::sleep_for(std::chrono::milliseconds(15000)); // Freezes application process for 15000 milliseconds (15 seconds) as an imiation of heating a water and milk 
 	std::cout << "Pouring coffee in the cup" << std::endl;
 	sugar_adding();
 	dopping_adding();

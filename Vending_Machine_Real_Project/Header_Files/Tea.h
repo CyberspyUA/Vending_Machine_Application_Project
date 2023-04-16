@@ -21,4 +21,4 @@ public:
 	// Coffee procesing functions
 	void brewing();
 	void sugar_adding();
-};
+};	
