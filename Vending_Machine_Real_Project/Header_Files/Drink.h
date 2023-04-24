@@ -43,8 +43,6 @@ public:
 	{
 		sugar_tea_spoon_quantity = new_sugar_spoon_quantity;
 	}
-	// Order details function
-	virtual void order_show() = 0;
 };
 #endif
 
