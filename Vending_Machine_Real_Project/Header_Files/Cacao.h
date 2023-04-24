@@ -30,21 +30,6 @@ public:
 	//Destructors
 	~Cacao() = default;
 	//Get functions
-	std::string get_drink_name()
-	{
-		std::string copy_drink_name = drink_name;
-		return copy_drink_name;
-	}
-	int get_cup_size()
-	{
-		int copy_cup_size = cup_size;
-		return copy_cup_size;
-	}
-	int get_sugar_tea_spoon_quantity()
-	{
-		int copy_sugar_tea_spoon_quantity = sugar_tea_spoon_quantity;
-		return copy_sugar_tea_spoon_quantity;
-	}
 	std::string get_dopping_name()
 	{
 		std::string copy_dopping_name = dopping_name;
