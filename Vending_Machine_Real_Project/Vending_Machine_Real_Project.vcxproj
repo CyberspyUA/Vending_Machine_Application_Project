@@ -138,8 +138,8 @@
     <ClInclude Include="Header_Files\Coffee.h" />
     <ClInclude Include="Header_Files\Drink.h" />
     <ClInclude Include="Header_Files\Tea.h" />
+    <ClInclude Include="Header_Files\Vending_Machine.h" />
     <ClInclude Include="Header_Files\Vending_machine_functions.h" />
-    <ClInclude Include="Vending_Machine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

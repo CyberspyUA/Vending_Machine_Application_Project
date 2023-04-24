@@ -4,9 +4,6 @@
 class Cacao : public Drink
 {
 private:
-	std::string drink_name{};
-	int cup_size{};
-	int sugar_tea_spoon_quantity{};
 	std::string dopping_name{};
 	bool is_dopping_added{};
 	std::string candies_name{};
@@ -51,18 +48,7 @@ public:
 		return copy_are_candies_added;
 	}
 	//Set functions
-	void set_drink_name(std::string new_drink_name)
-	{
-		drink_name = new_drink_name;
-	}
-	void set_cup_size(int new_cup_size)
-	{
-		cup_size = new_cup_size;
-	}
-	void set_sugar_tea_spoon_quantity(int new_sugar_spoon_quantity)
-	{
-		sugar_tea_spoon_quantity = new_sugar_spoon_quantity;
-	}
+	
 	void set_dopping_name(std::string cacao_dopping_name)
 	{
 		dopping_name = cacao_dopping_name;
@@ -80,7 +66,7 @@ public:
 		are_candies_added = cacao_are_candies_added;
 	}
 	//Show function
-	void order_show() override;
+	void order_show();
 	// Coffee procesing functions
 	void brewing();
 	void sugar_adding();
