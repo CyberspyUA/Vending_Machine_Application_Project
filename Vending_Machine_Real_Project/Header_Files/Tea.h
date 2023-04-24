@@ -1,4 +1,5 @@
 #include "Drink.h"
+#include "../Header_Files/Vending_Machine.h"
 #include <thread>
 #include <chrono>
 class Tea : public Drink
@@ -17,7 +18,7 @@ public:
 	//Destructors
 	~Tea() = default;
 	//Show function
-	void order_show() override;
+	void order_show();
 	// Coffee procesing functions
 	void brewing();
 	void sugar_adding();

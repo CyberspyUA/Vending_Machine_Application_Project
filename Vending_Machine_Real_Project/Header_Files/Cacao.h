@@ -1,6 +1,7 @@
 #include "Drink.h"
 #include <thread>
 #include <chrono>
+#include "../Header_Files/Vending_Machine.h"
 class Cacao : public Drink
 {
 private:
@@ -65,7 +66,7 @@ public:
 		are_candies_added = cacao_are_candies_added;
 	}
 	//Show function
-	void order_show() override;
+	void order_show();
 	// Coffee procesing functions
 	void brewing();
 	void sugar_adding();
