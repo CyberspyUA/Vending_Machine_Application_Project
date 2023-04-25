@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Coffee_Vending_Machine.cpp" />
     <ClCompile Include="Cpp_Files\Cacao.cpp" />
     <ClCompile Include="Cpp_Files\Coffee.cpp" />
     <ClCompile Include="Cpp_Files\Tea.cpp" />
@@ -134,6 +135,7 @@
     <ClCompile Include="Vending_Machine_Real_Project.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Coffee_Vending_Machine.h" />
     <ClInclude Include="Header_Files\Cacao.h" />
     <ClInclude Include="Header_Files\Coffee.h" />
     <ClInclude Include="Header_Files\Drink.h" />

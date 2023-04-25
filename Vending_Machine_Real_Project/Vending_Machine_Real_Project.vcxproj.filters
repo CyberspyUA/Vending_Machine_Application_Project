@@ -30,6 +30,9 @@
     <ClCompile Include="Cpp_Files\Tea.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Coffee_Vending_Machine.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header_Files\Vending_machine_functions.h">
@@ -45,6 +48,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Header_Files\Tea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header_Files\Vending_Machine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coffee_Vending_Machine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
